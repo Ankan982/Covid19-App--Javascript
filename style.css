@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+   
+}
+
+
+
+.top{
+    height: 55px;
+    width: 100%;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Bebas Neue', cursive;
+}
+
+.log{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    color: white;
+}
+.main{
+    display: flex;
+    justify-content: center;
+
+}
+.bot{
+    padding-top: 20px;
+   
+  
+}
+
+.h2{
+    padding-top: 25px;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+form.example{
+    padding-top: 20px;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.innerTab{
+    padding-top: 20px;
+}
+
+div.wrapper {
+    position:  absolute;
+    top : 200px;
+    left: 300px;
+    width: 300px;
+    height:300px;
+    border:2px solid rgb(4, 57, 92);
+}
+
+input[type="text"] {
+     position: relative;
+     display: block;
+     margin : 0 auto;
+     padding: 5px;
+}
+
+.search{
+    margin-top: 20px;
+    font-family: 'IBM Plex Sans';
+}
+.img{
+    margin-top: 10px;
+}
+
+.foot{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+}
