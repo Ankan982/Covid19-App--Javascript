@@ -1,4 +1,4 @@
-# Covid19-App--Javascript
+# Covid19-App-Javascript
 
 Build this using HTML, CSS, Javascript and API from https://disease.sh/
 
